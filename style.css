@@ -1,0 +1,24 @@
+/* Preset and Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+/* By default 1rem == 16px */
+html {
+  font-size: 62.5%; /* Now 1rem == 10px */
+  scroll-behavior: smooth;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End of Preset and Common Styles */
