@@ -82,3 +82,44 @@ html {
   letter-spacing: 0.3rem;
 }
 /* End of Section 1 */
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  height: 4rem;
+  background-color: #e41c6f;
+  box-shadow: 0.2rem 0.2rem 0.5rem #555;
+  position: absolute;
+  z-index: 300;
+}
+
+.navbar-link {
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0 3rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.navbar-link:hover {
+  color: #fff;
+}
+
+.navbar-link::before {
+  content: "";
+  width: 0;
+  height: 0.2rem;
+  background-color: #fff;
+  position: absolute;
+  right: -15%;
+  bottom: -0.3rem;
+  transition: width 0.2s;
+}
+
+.navbar-link:hover::before {
+  width: 130%;
+}
+/* End of Navbar */
