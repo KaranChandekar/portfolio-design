@@ -1,4 +1,4 @@
-/* Preset and Common Styles */
+/* Reset and Common Styles */
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +10,8 @@
   font-weight: 400;
 }
 
-/* By default 1rem == 16px */
 html {
-  font-size: 62.5%; /* Now 1rem == 10px */
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -21,7 +20,17 @@ html {
   justify-content: center;
   align-items: center;
 }
-/* End of Preset and Common Styles */
+
+.section-heading {
+  font-size: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 15rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+/* End of Reset and Common Styles */
 
 /* Section 1 */
 .section-1 {
@@ -93,6 +102,11 @@ html {
   z-index: 300;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
 .navbar-link {
   font-size: 1.7rem;
   font-weight: 600;
@@ -102,6 +116,10 @@ html {
   text-transform: uppercase;
   position: relative;
   transition: color 0.2s;
+}
+
+.change.navbar-link {
+  color: #fff;
 }
 
 .navbar-link:hover {
@@ -117,6 +135,10 @@ html {
   right: -15%;
   bottom: -0.3rem;
   transition: width 0.2s;
+}
+
+.change.navbar-link::before {
+  width: 130%;
 }
 
 .navbar-link:hover::before {
