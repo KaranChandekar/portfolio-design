@@ -2,6 +2,11 @@
 
 Fully responsive portfolio web design created using html, css and javascript.
 
+# Languages
+
+- HTML5
+- CSS3
+- JavaScript
 
 # Demo
 
