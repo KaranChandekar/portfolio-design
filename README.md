@@ -6,7 +6,11 @@ Fully responsive portfolio web design created using html, css and javascript.
 - CSS3
 - JavaScript
 
-# Demo
+## Screenshot
+
+![Screenshot (299)](https://user-images.githubusercontent.com/93200960/215091923-870c5ed9-a1ca-4179-9e87-a0bc0310ad4d.png)
+
+## Demo
 https://user-images.githubusercontent.com/93200960/196205371-5e5e04a4-86c0-420c-9515-02a9a80e23f6.mp4
 
 ## 🚀 About Me
